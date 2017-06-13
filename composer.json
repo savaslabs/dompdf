@@ -30,8 +30,14 @@
         "ext-dom": "*",
         "ext-mbstring": "*",
         "phenx/php-font-lib": "0.5.*",
-        "phenx/php-svg-lib": "dev-master#a85f7fe9fe08d093a4a8583cdd306b553ff918aa"
+        "phenx/php-svg-lib": "~v0.3"
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/savaslabs/php-svg-lib"
+      }
+    ],
     "require-dev": {
         "phpunit/phpunit": "4.8.*",
         "squizlabs/php_codesniffer": "2.*"
